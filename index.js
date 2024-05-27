@@ -6,7 +6,7 @@ const port =3000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Due to the low capacity of the instance server is not working properly. we working to fix the issues.Thnanks for understandinf');
+    res.send('Due to the low capacity of the instance server is not working properly. Iam working on to fix the issue.Thnanks for understanding');
 });
 
 app.listen(port, () => {
